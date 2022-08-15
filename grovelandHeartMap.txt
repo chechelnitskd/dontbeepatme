@@ -1,0 +1,308 @@
+######################################
+# Graph of all of campus, with 60 nodes, so far!
+#
+# Contains a graph of 60 points from the main part of the
+# Macalester Groveland for Speed Limit.  The positions given are the latitude and
+# longitude values for each location, just the seconds part.  We can
+# assume, given the small scale of things, that these are fixed, flat
+# offsets from some (0,0), which would be southeast of Groveland"""
+
+Number of Nodes: 60
+
+Nodes:
+0   (0.50, 0.40)   Fairview/Selby
+1   (0.38, 0.40)   Olin-Rice near loading dock
+2   (0.30, 0.40)   Olin-Rice west door
+3   (0.26, 0.40)   Olin-Rice parking/sidewalk junction
+4   (0.21, 0.40)    Olin-Rice south stairs west
+5   (0.12, 0.40)    Olin-Rice south path west
+6   (0.00, 0.40)    Olin-Rice south stairs east
+7   (0.50, 0.34)    Olin-Rice south path east
+8   (0.38, 0.34)    Olin-Rice southeast corner
+9   (0.30, 0.34)    Olin-Rice east path
+10   (0.26, 0.34)    Base of steps to Leonard Center
+11   (0.21, 0.34)    Olin-Rice northeast corner
+12   (0.12, 0.34)    Olin-Rice northwest corner
+13   (0.00, 0.34)    Olin-Rice west parking entrance
+14   (0.50, 0.29)   Olin-Rice west parking path
+15   (0.38, 0.29)   Path to west 2 parking
+16   (0.30, 0.29)   Fine Arts west entrance
+17   (0.26, 0.29)   Facilities/Music west doors
+18   (0.21, 0.29)    Humanities south doors
+19   (0.12, 0.29)    Humanities Olin-Rice path junction
+20   (0.04, 0.29)    Shaw Field path junction
+21   (0.00, 0.29)    Shaw Field Olin-Rice path junction
+22   (0.50, 0.24)    Olin-Rice rock garden junction
+23   (0.38, 0.24)    Olin-Rice rock garden junction
+24   (0.30, 0.24)    Olin-Rice rock garden junction
+25   (0.26, 0.24)    Olin-Rice rock garden junction
+26   (0.21, 0.24)    Olin-Rice rock garden junction
+27   (0.12, 0.24)    Olin-Rice rock garden junction
+28   (0.04, 0.24)    Olin-Rice rock garden junction
+29   (0.50, 0.20)    Olin-Rice rock garden junction
+30   (0.38, 0.20)    Olin-Rice rock garden junction
+31   (0.30, 0.20)    Olin-Rice rock garden junction
+32   (0.26, 0.20)    Olin-Rice rock garden junction
+33   (0.21, 0.20)    Olin-Rice rock garden junction
+34   (0.12, 0.20)    Olin-Rice rock garden junction
+35   (0.04, 0.20)    Olin-Rice rock garden junction
+36   (0.00, 0.20)    Olin-Rice rock garden junction
+37   (0.50, 0.16)    Olin-Rice rock garden junction
+38   (0.38, 0.16)    Olin-Rice rock garden junction
+39   (0.26, 0.16)    Olin-Rice rock garden junction
+40   (0.21, 0.16)    Olin-Rice rock garden junction
+41   (0.12, 0.16)    Olin-Rice rock garden junction
+42   (0.50, 0.12)    Olin-Rice rock garden junction
+43   (0.38, 0.12)    Olin-Rice rock garden junction
+44   (0.26, 0.12)    Olin-Rice rock garden junction
+45   (0.21, 0.12)    Olin-Rice rock garden junction
+46   (0.12, 0.12)    Olin-Rice rock garden junction
+47   (0.00, 0.12)    Olin-Rice rock garden junction
+48   (0.50, 0.07)    Olin-Rice rock garden junction
+49   (0.38, 0.07)    Olin-Rice rock garden junction
+50   (0.26, 0.07)    Olin-Rice rock garden junction
+51   (0.21, 0.07)    Olin-Rice rock garden junction
+52   (0.12, 0.07)    Olin-Rice rock garden junction
+53   (0.00, 0.07)    Olin-Rice rock garden junction
+54   (0.50, 0.00)    Olin-Rice rock garden junction
+55   (0.38, 0.00)    Olin-Rice rock garden junction
+56   (0.26, 0.00)    Olin-Rice rock garden junction
+57   (0.21, 0.00)    Olin-Rice rock garden junction
+58   (0.12, 0.00)    Olin-Rice rock garden junction
+59   (0.00, 0.00)    Olin-Rice rock garden junction
+
+
+
+Markers:
+
+Edges:
+
+# 0: 1, 7
+0 1 75
+0 7 75
+
+# 1: 0, 2, 8
+1 2 75
+1 8 75
+
+# 2: 1, 9, 3
+2 9 95
+2 3 75
+
+# 3: 2, 10, 4
+3 10 95
+3 4 75
+
+# 4: 3, 11, 5
+4 11 60
+4 5 75
+
+# 5: 4, 12, 6
+5 12 75
+5 6 75
+
+# 6: 5, 13
+6 13 75
+
+# 7: 0, 8, 14
+7 8 75
+7 14 75
+
+# 8: 1, 7, 9, 15
+8 9 75
+8 15 75
+
+# 9: 2, 8, 10, 16
+9 10 75
+9 16 95
+
+# 10: 3, 9, 11, 17
+10 11 75
+10 17 95
+
+# 11: 4, 10, 12, 18
+11 12 75
+11 18 60
+
+# 12: 5, 11, 13, 19
+12 13 75
+12 19 75
+
+# 13: 6, 12, 21
+13 21 75
+
+# 14: 7, 15, 22
+14 15 75
+14 22 75
+
+# 15: 8, 14, 16, 23
+15 16 75
+15 23 75
+
+# 16: 15, 17
+16 17 75
+16 24 95
+
+# 17: 16, 47
+17 18 75
+17 25 95
+
+# 18: 12, 19
+18 19 75
+18 26 75
+
+# 19: 18, 20, 22
+19 20 75
+19 27 75
+
+# 20: 19, 21, 28
+20 21 75
+20 28 75
+
+# 21: 13, 20, 36
+21 36 75
+
+# 22
+22 23 75
+22 29 75
+
+#23
+23 24 75
+23 30 75
+
+#24
+24 25 75
+24 31 95
+
+#25
+25 26 75
+25 32 95
+
+#26
+26 27 75
+26 33 75
+
+#27
+27 28 75
+27 34 75
+
+#28
+28 35 75
+
+#29
+29 30 75
+29 37 75
+
+#30
+30 31 75
+30 38 75
+
+#31
+31 32 75
+
+#32
+32 33 75
+32 39 95
+
+#33
+33 34 75
+33 40 75
+
+#34
+34 35 75
+34 41 75
+
+#35
+35 36 75
+35 41 75
+
+#36
+36 47 75
+
+#37
+37 38 75
+37 42 75
+
+#38
+38 39 75
+38 43 75
+
+#39
+39 40 60
+39 44 95
+
+#40
+40 41 75
+40 45 75
+
+#41
+41 46 75
+
+#42
+42 43 75
+42 48 75
+
+#43
+43 44 75
+43 49 75
+
+#44
+44 45 75
+44 50 75
+
+#45
+45 46 75
+45 51 75
+
+#46
+46 47 75
+46 52 75
+
+#47
+47 53 75
+
+#48
+48 49 75
+48 54 75
+
+#49
+49 50 75
+49 55 75
+
+#50
+50 51 75
+50 56 75
+
+#51
+51 52 75
+51 57 75
+
+#52
+52 53 75
+52 58 75
+
+#53
+53 59 75
+
+#54
+54 55 75
+
+#55
+55 56 75
+
+#56
+56 57 75
+
+#57
+57 58 75
+
+#58
+58 59 75
+
+
+
+
+
+
+
+
